@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.5codelab.cocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>Resources/README.md</key>
+		<dict>
+			<key>Group</key>
+			<string>Resources</string>
+			<key>Path</key>
+			<string>Resources/README.md</string>
+		</dict>
+        
+        <key>OtherResources/README.md</key>
+		<dict>
+			<key>Group</key>
+			<string>OtherResources</string>
+			<key>Path</key>
+			<string>OtherResources/README.md</string>
+		</dict>
+        
+		<key>Classes/AppDelegate/AppDelegate.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>AppDelegate</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/AppDelegate/AppDelegate.m</string>
+		</dict>
+        
+		<key>Classes/AppDelegate/AppDelegate.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>AppDelegate</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/AppDelegate/AppDelegate.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
+		<key>___PROJECTNAME___-Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Info.plist</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
+		<key>main.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>main.m</string>
+		</dict>
+        
+		<key>___PROJECTNAME___-Prefix.pch</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Prefix.pch</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
+		<key>Classes/ViewControllers/___PROJECTNAME___ViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/ViewControllers/___PROJECTNAME___ViewController.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
+		<key>Classes/ViewControllers/___PROJECTNAME___ViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/ViewControllers/___PROJECTNAME___ViewController.m</string>
+		</dict>
+        
+		<key>Classes/ViewControllers/Resources/___PROJECTNAME___ViewController.xib</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/ViewControllers/Resources/___PROJECTNAME___ViewController.xib</string>
+		</dict>
+        
+		<key>Classes/Views</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>Classes/Views</string>
+		</dict>
+            
+		<key>Classes/Categories</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>Classes/Categories</string>
+		</dict>
+        
+		<key>Classes/Common</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>Classes/Common</string>
+		</dict>
+        
+		<key>Classes/Utils</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>Classes/Utils</string>
+		</dict>
+        
+		<key>Classes/Models</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>Classes/Models</string>
+		</dict>
+        
+	</dict>
+	<key>Description</key>
+	<string>This template provides a starting point for any application. It provides just an application delegate and a window.</string>
+	<key>Identifier</key>
+	<string>com.5codelab.MinimalTemplate</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>___PROJECTNAME___-Info.plist</string>
+		<string>___PROJECTNAME___-Prefix.pch</string>
+		<string>main.m</string>
+		<string>Classes/AppDelegate/AppDelegate.h</string>
+		<string>Classes/AppDelegate/AppDelegate.m</string>
+		<string>Classes/ViewControllers/___PROJECTNAME___ViewController.h</string>
+		<string>Classes/ViewControllers/___PROJECTNAME___ViewController.m</string>
+		<string>Classes/ViewControllers/Resources/___PROJECTNAME___ViewController.xib</string>
+        <string>Resources/README.md</string>
+        <string>OtherResources/README.md</string>
+        <string>Classes/Views</string>
+        <string>Classes/Categories</string>
+        <string>Classes/Models</string>
+        <string>Classes/Common</string>
+        <string>Classes/Utils</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>OTHER_LDFLAGS</key>
+				<string>-ObjC -all_load</string>
+				<key>USER_HEADER_SEARCH_PATHS</key>
+				<string>$(BUILT_PRODUCTS_DIR)/usr/local/include</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
