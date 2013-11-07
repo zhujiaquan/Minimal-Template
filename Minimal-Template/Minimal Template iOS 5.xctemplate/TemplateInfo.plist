@@ -32,7 +32,7 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Info.plist</key>
+		<key>___PROJECTNAME___-Info.plist</key>
 		<dict>
 			<key>Group</key>
 			<string>Supporting Files</string>
@@ -48,7 +48,7 @@
 			<key>Path</key>
 			<string>main.m</string>
 		</dict>
-		<key>Prefix.pch</key>
+		<key>___PROJECTNAME___-Prefix.pch</key>
 		<dict>
 			<key>Group</key>
 			<string>Supporting Files</string>
@@ -57,27 +57,27 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Classes/MainVC/MainVC.h</key>
+		<key>Classes/ViewControllers/MainViewController.h</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Classes</string>
-				<string>MainVC</string>
+				<string>ViewControllers</string>
 			</array>
 			<key>Path</key>
-			<string>Classes/MainVC/MainVC.h</string>
+			<string>Classes/ViewControllers/MainViewController.h</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Classes/MainVC/MainVC.m</key>
+		<key>Classes/ViewControllers/MainViewController.m</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Classes</string>
-				<string>MainVC</string>
+				<string>ViewControllers</string>
 			</array>
 			<key>Path</key>
-			<string>Classes/MainVC/MainVC.m</string>
+			<string>Classes/ViewControllers/MainViewController.m</string>
 		</dict>
 		<key>Classes/Resources/Main.storyboard</key>
 		<dict>
@@ -98,13 +98,13 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
-		<string>Info.plist</string>
-		<string>Prefix.pch</string>
+		<string>___PROJECTNAME___-Info.plist</string>
+		<string>___PROJECTNAME___-Prefix.pch</string>
 		<string>main.m</string>
 		<string>Classes/AppDelegate/AppDelegate.h</string>
 		<string>Classes/AppDelegate/AppDelegate.m</string>
-		<string>Classes/MainVC/MainVC.h</string>
-		<string>Classes/MainVC/MainVC.m</string>
+		<string>Classes/ViewControllers/MainViewController.h</string>
+		<string>Classes/ViewControllers/MainViewController.m</string>
 		<string>Classes/Resources/Main.storyboard</string>
 	</array>
 	<key>Targets</key>
