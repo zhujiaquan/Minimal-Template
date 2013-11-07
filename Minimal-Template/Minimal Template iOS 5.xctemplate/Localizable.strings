@@ -1,0 +1,13 @@
+/*
+  ___FILENAME___
+  ___PROJECTNAME___
+  
+  Created by ___FULLUSERNAME___ on ___DATE___.
+  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
+*/
+
+// MARK: shared
+"shared.copyright.info.text"         = "5CODELAB CO.,LTD.ALL RIGHTS RESERVED.";
+"shared.prompt.alert.title"          = "Message";
+"shared.ok.button.title"             = "OK";
+"shared.cancel.button.title"         = "Cancel";
