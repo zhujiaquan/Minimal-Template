@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ___PROJECTNAME___ViewController : UIViewController {
+@interface ___PROJECTNAME___ViewController : UIViewController 
+{
 
 }
 

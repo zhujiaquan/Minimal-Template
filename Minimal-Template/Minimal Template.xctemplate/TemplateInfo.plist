@@ -60,6 +60,16 @@
 			<array/>
 		</dict>
         
+		<key>Localizable.strings</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Localizable.strings</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
 		<key>main.m</key>
 		<dict>
 			<key>Group</key>
@@ -74,6 +84,63 @@
 			<string>Supporting Files</string>
 			<key>Path</key>
 			<string>Prefix.pch</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+        
+		<key>Classes/Common/README.md</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Common</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/Common/README.md</string>
+		</dict>
+        
+        <key>Classes/Categories/README.md</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Categories</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/Categories/README.md</string>
+		</dict>
+        
+		<key>Classes/Utils/README.md</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Utils</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/Utils/README.md</string>
+		</dict>
+        
+		<key>Classes/Models/README.md</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Models</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/Models/README.md</string>
+		</dict>
+        
+		<key>Classes/ViewControllers/README.md</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/ViewControllers/README.md</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
@@ -114,44 +181,15 @@
 			<string>Classes/ViewControllers/Resources/___PROJECTNAME___ViewController.xib</string>
 		</dict>
         
-		<key>Classes/Views</key>
+		<key>Classes/Views/README.md</key>
 		<dict>
 			<key>Group</key>
-			<string>Classes</string>
+			<array>
+				<string>Classes</string>
+				<string>Views</string>
+			</array>
 			<key>Path</key>
-			<string>Classes/Views</string>
-		</dict>
-            
-		<key>Classes/Categories</key>
-		<dict>
-			<key>Group</key>
-			<string>Classes</string>
-			<key>Path</key>
-			<string>Classes/Categories</string>
-		</dict>
-        
-		<key>Classes/Common</key>
-		<dict>
-			<key>Group</key>
-			<string>Classes</string>
-			<key>Path</key>
-			<string>Classes/Common</string>
-		</dict>
-        
-		<key>Classes/Utils</key>
-		<dict>
-			<key>Group</key>
-			<string>Classes</string>
-			<key>Path</key>
-			<string>Classes/Utils</string>
-		</dict>
-        
-		<key>Classes/Models</key>
-		<dict>
-			<key>Group</key>
-			<string>Classes</string>
-			<key>Path</key>
-			<string>Classes/Models</string>
+			<string>Classes/Views/README.md</string>
 		</dict>
         
 	</dict>
@@ -163,21 +201,23 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
+        <string>Resources/README.md</string>
+        <string>OtherResources/README.md</string>
 		<string>___PROJECTNAME___-Info.plist</string>
 		<string>___PROJECTNAME___-Prefix.pch</string>
+        <string>Localizable.strings</string>
 		<string>main.m</string>
 		<string>Classes/AppDelegate/AppDelegate.h</string>
 		<string>Classes/AppDelegate/AppDelegate.m</string>
+        <string>Classes/Common/README.md</string>
+        <string>Classes/Categories/README.md</string>
+        <string>Classes/Utils/README.md</string>
+        <string>Classes/Models/README.md</string>
+        <string>Classes/ViewControllers/README.md</string>
 		<string>Classes/ViewControllers/___PROJECTNAME___ViewController.h</string>
 		<string>Classes/ViewControllers/___PROJECTNAME___ViewController.m</string>
 		<string>Classes/ViewControllers/Resources/___PROJECTNAME___ViewController.xib</string>
-        <string>Resources/README.md</string>
-        <string>OtherResources/README.md</string>
-        <string>Classes/Views</string>
-        <string>Classes/Categories</string>
-        <string>Classes/Models</string>
-        <string>Classes/Common</string>
-        <string>Classes/Utils</string>
+        <string>Classes/Views/README.md</string>
 	</array>
 	<key>Targets</key>
 	<array>
